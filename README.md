@@ -1,9 +1,9 @@
 # gayzometro
-from random import randint
+	from random import randint
 
-pergunta = input('qual o nome do gay? ')
+	pergunta = input('qual o nome do gay? ')
 
-class Gay():
+	class Gay():
 	
 	def __init__(self, gay_name):
 		self.gay_name = gay_name
@@ -13,5 +13,6 @@ class Gay():
 		print('O ' + self.gay_name.title() + ' e ' + 
 		str(self.porcento) + '% gay.')
 
-gay = Gay(pergunta)
-gay.porcentagem()
+	gay = Gay(pergunta)
+	
+	gay.porcentagem()
